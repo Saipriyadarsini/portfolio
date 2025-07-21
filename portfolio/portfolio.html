@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B. Saipriyadarsini | Voice AI & LLM Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: 700; /* font-bold */
+            color: #1f2937; /* Darker text for titles */
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 60px;
+            height: 4px;
+            background-color: #4f46e5; /* Indigo underline */
+            border-radius: 9999px; /* rounded-full */
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem; /* rounded-lg */
+            font-weight: 600; /* font-semibold */
+            transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+        }
+        .btn-primary {
+            background-color: #4f46e5; /* Indigo */
+            color: #ffffff;
+        }
+        .btn-primary:hover {
+            background-color: #4338ca; /* Darker indigo */
+            transform: translateY(-1px);
+        }
+        .icon-link {
+            display: inline-flex;
+            align-items: center;
+            color: #4f46e5;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+        }
+        .icon-link:hover {
+            color: #3730a3;
+        }
+        .icon-link svg {
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-indigo-700 text-white py-6 shadow-md">
+        <div class="container flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 md:mb-0">B. Saipriyadarsini</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-indigo-200 transition-colors">About</a></li>
+                    <li><a href="#projects" class="hover:text-indigo-200 transition-colors">Projects</a></li>
+                    <li><a href="#skills" class="hover:text-indigo-200 transition-colors">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-200 transition-colors">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2 text-lg leading-relaxed">
+                    <p class="mb-4">
+                        An enthusiastic and dedicated candidate with a passion for continuous learning and upskilling in the dynamic field of Artificial Intelligence, particularly in areas relevant to **Voice AI** and **Large Language Models**.
+                    </p>
+                    <p class="mb-4">
+                        Eager to contribute expertise in optimizing LLMs for ultra-low latency, MLOps, and cloud deployment (Azure/GCP/AWS) to a fast-paced, forward-thinking company. I am driven to be an invaluable asset, fostering both personal and professional growth in my career journey.
+                    </p>
+                    <p>
+                        I am an avid reader of research papers, with a constant lookout for new ideas and quick experimentation, embodying the startup energy to move quick, stay scrappy, and ship fast.
+                    </p>
+                    <div class="mt-6 flex space-x-4">
+                        <a href="https://www.linkedin.com/in/b-saipriyadarsini-25/" target="_blank" class="icon-link">
+                            <i data-lucide="linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/Saipriyadarsini" target="_blank" class="icon-link">
+                            <i data-lucide="github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="md:col-span-1 flex justify-center">
+                    <!-- Profile image updated to a placeholder -->
+                    <img src="https://placehold.co/200x200/e0e7ff/4f46e5?text=Your+Photo" alt="B. Saipriyadarsini Profile" class="rounded-full w-48 h-48 object-cover border-4 border-indigo-400 shadow-md">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <!-- Project 1: AI-driven 360 Feedback System -->
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-3">AI-driven 360 Feedback System for PIB</h3>
+                <p class="text-gray-600 mb-4">
+                    **Domain:** Gen AI, ML | **Tech Stack:** PyTorch, TensorFlow, Bert, Beautiful Soup, Selenium, Django, HTML, CSS
+                </p>
+                <p class="mb-4">
+                    Developed an AI-driven system to categorize news by relevant government departments for critical event notification and performed sentiment analysis (positive, neutral, negative). Integrated a chatbot for seamless process integration. This project demonstrates direct experience with Gen AI, ML, and the use of frameworks like PyTorch and TensorFlow for building intelligent systems. It highlights my ability to process and understand large volumes of text data, foundational for working with spoken language in Voice AI.
+                </p>
+                <a href="https://github.com/Saipriyadarsini/AI-driven-360-feedback-system" target="_blank" class="btn btn-primary">
+                    <i data-lucide="github" class="mr-2"></i> View on GitHub
+                </a>
+            </div>
+
+            <!-- Project 2: Text Genie -->
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-3">Text Genie</h3>
+                <p class="text-gray-600 mb-4">
+                    **Domain:** Gen AI | **Tech Stack:** React JS, Python
+                </p>
+                <p class="mb-4">
+                    Created a text generator that generates text based on a given prompt, showcasing practical application of generative AI. This project directly showcases my work with Gen AI and demonstrates my understanding and implementation of generative models, which are central to LLMs and could be applied to generating spoken responses or conversational AI.
+                </p>
+                <a href="https://github.com/Saipriyadarsini/Text-Genie" target="_blank" class="btn btn-primary">
+                    <i data-lucide="github" class="mr-2"></i> View on GitHub
+                </a>
+            </div>
+
+            <!-- Project 3: Twitter Sentimental Analysis -->
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-indigo-700 mb-3">Twitter Sentimental Analysis</h3>
+                <p class="text-gray-600 mb-4">
+                    **Domain:** Natural Language Processing | **Tech Stack:** Python, Tweepy, Textblob, Matplotlib
+                </p>
+                <p class="mb-4">
+                    Determined the emotional tone behind series of words to understand attitudes, opinions, and emotions conveyed by Twitter users, directly relevant to processing unstructured text data for AI applications. This project highlights my skills in Natural Language Processing (NLP), which is fundamental for understanding and interpreting human language, whether written or spoken.
+                </p>
+                <a href="https://github.com/Saipriyadarsini/Twitter-Sentimental-Analysis" target="_blank" class="btn btn-primary">
+                    <i data-lucide="github" class="mr-2"></i> View on GitHub
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-white">
+        <div class="container">
+            <h2 class="section-title">Technical Skill Set</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg">
+                <div class="card !p-6">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2 flex items-center"><i data-lucide="code" class="mr-2 text-indigo-600"></i> Programming Languages</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C, C++</li>
+                        <li>HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+                <div class="card !p-6">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2 flex items-center"><i data-lucide="brain" class="mr-2 text-indigo-600"></i> AI/ML & Data Science</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Generative AI (Gen AI)</li>
+                        <li>PyTorch, TensorFlow, Bert</li>
+                    </ul>
+                </div>
+                <div class="card !p-6">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2 flex items-center"><i data-lucide="globe" class="mr-2 text-indigo-600"></i> Web Technologies</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Web Development (Foundational)</li>
+                        <li>React JS</li>
+                        <li>Django</li>
+                        <li>Beautiful Soup, Selenium</li>
+                    </ul>
+                </div>
+                <div class="card !p-6">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2 flex items-center"><i data-lucide="tool" class="mr-2 text-indigo-600"></i> Tools & Platforms</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Git</li>
+                        <li>Jira</li>
+                        <li>Microsoft Office 365</li>
+                        <li>Cloud Platforms (Azure/GCP/AWS - conceptual)</li>
+                    </ul>
+                </div>
+                <div class="card !p-6">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2 flex items-center"><i data-lucide="settings" class="mr-2 text-indigo-600"></i> Operating Systems</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Windows</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+                <div class="card !p-6">
+                    <h3 class="font-semibold text-xl text-gray-800 mb-2 flex items-center"><i data-lucide="award" class="mr-2 text-indigo-600"></i> Certifications & Soft Skills</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Ethical AI</li>
+                        <li>Problem Solving</li>
+                        <li>Leadership, Empathy</li>
+                        <li>Time Management, Multitasking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container text-center">
+            <h2 class="section-title mx-auto">Get in Touch</h2>
+            <p class="text-lg mb-6 text-gray-700">
+                I'm always open to new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <a href="mailto:saipriya1663@gmail.com" class="icon-link text-xl">
+                    <i data-lucide="mail"></i> saipriya1663@gmail.com
+                </a>
+                <a href="tel:+919353343734" class="icon-link text-xl">
+                    <i data-lucide="phone"></i> +91-9353343734
+                </a>
+            </div>
+            <div class="mt-8 flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/b-saipriyadarsini-25/" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition-colors">
+                    <i data-lucide="linkedin" class="w-8 h-8"></i>
+                </a>
+                <a href="https://github.com/Saipriyadarsini" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition-colors">
+                    <i data-lucide="github" class="w-8 h-8"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-700 text-white py-6 text-center text-sm">
+        <div class="container">
+            &copy; 2025 B. Saipriyadarsini. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
